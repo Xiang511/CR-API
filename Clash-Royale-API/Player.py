@@ -4,11 +4,11 @@ import json
 import time
 from tqdm import tqdm
 
-#計算起始時間
+#Calculate starting time
 start_time = time.time()
 
-# 設定 API 金鑰
-# 前往 https://developer.clashroyale.com/#/ 取得
+# Enter your key
+# Go to https://developer.clashroyale.com/#/ 
 API_KEY = ""
 
 headers = {
@@ -25,9 +25,9 @@ player_tags = ["%2322R920J00", "%23V99082R9C"]
 wb = openpyxl.Workbook()
 ws = wb.active
 
-ws["A1"] = "遊戲ID"
-ws["B1"] = "最佳賽季"
-ws["C1"] = "上一賽季"
+ws["A1"] = "Tag"
+ws["B1"] = "BEST"
+ws["C1"] = "LAST"
 
 
 def clean_result(result):
@@ -60,6 +60,6 @@ for player_tag in tqdm(player_tags):
 
 wb.save("Player.xlsx")
 
-#計算結束時間
+#Calculate end time
 end_time = time.time()
-print(f"執行時間：{end_time - start_time}")
+print(f"Time：{end_time - start_time}")
