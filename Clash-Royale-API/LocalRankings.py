@@ -4,11 +4,11 @@ import datetime
 import time
 from tqdm import tqdm
 
-#計算起始時間
+#Calculate starting time
 start_time = time.time()
 
-# 設定 API 金鑰
-# 前往 https://developer.clashroyale.com/#/ 取得
+# Enter your key
+# Go to https://developer.clashroyale.com/#/ 
 
 API_KEY = ""
 headers = {
@@ -20,7 +20,10 @@ response = requests.get(
     headers=headers,
 )
 
-#   取得現在時間
+# How do I know my area code? ex:57000228
+# Check Area Code File
+
+#   Get Time
 now = datetime.datetime.now()
 now_str = now.strftime("%Y-%m-%d")
 
@@ -40,6 +43,6 @@ for player in tqdm(response.json()["items"]):
 
 wb.save(now_str+".xlsx")
 
-#計算結束時間
+#Calculate end time
 end_time = time.time()
-print(f"執行時間：{end_time - start_time}")
+print(f"Time：{end_time - start_time}")
