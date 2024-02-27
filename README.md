@@ -1,12 +1,7 @@
 # Accessing the Clash Royale API using Python 
-#### [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+Users must obtain the corresponding API key to use. Please go to https://royaleapi.com/?lang=en.
 
-
-Users must enter their own API key, please go to clashroyaleapi to get it.</br>
-https://developer.clashroyale.com/#/
-## DEMO
-- https://www.youtube.com/watch?v=BKnR_kre6QI&ab_channel=XiangFang
 ## Features 
 - FindClan.py Search Clan information
 - Player.py   Search Player information
@@ -16,3 +11,5 @@ https://developer.clashroyale.com/#/
 ## Under development
 - Implement a GUI
 
+## DEMO
+- https://www.youtube.com/watch?v=BKnR_kre6QI&ab_channel=XiangFang
