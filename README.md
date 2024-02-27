@@ -1,17 +1,18 @@
-# Accessing the Clash Royale API using Python
-![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge) 
+# Accessing the Clash Royale API using Python 
+#### [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 
-使用者必須輸入自己的api金鑰，請前往clashroyaleapi獲取</br>
+
+Users must enter their own API key, please go to clashroyaleapi to get it.</br>
 https://developer.clashroyale.com/#/
 ## DEMO
 - https://www.youtube.com/watch?v=BKnR_kre6QI&ab_channel=XiangFang
 ## Features 
-- FindClan.py 搜尋部落資訊
-- Player.py   搜尋玩家資訊
-- TaiwanRank.py  搜尋台灣排行榜資訊
-- 個人成就紀錄.py 搜尋個人成就紀錄
+- FindClan.py Search Clan information
+- Player.py   Search Player information
+- TaiwanRank.py  Search local rankings
+- PlayerProfile.py Search player achievement records
 
 ## Under development
-- GUI介面實作
+- Implement a GUI
 
