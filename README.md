@@ -1,4 +1,8 @@
 # Accessing the Clash Royale API using Python 
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge)
+![GitHub Release](https://img.shields.io/github/v/release/Xiang511/CR-API?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/Xiang511/CR-API?style=for-the-badge&color=blue)
+
 
 Users must obtain the corresponding API key to use. Please go to https://developer.clashroyale.com/#/
 ## Features 
