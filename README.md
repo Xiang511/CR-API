@@ -1,10 +1,8 @@
-![CR-API](https://socialify.git.ci/Xiang511/CR-API/image?language=1&name=1&owner=1&pattern=Brick%20Wall&theme=Light)
-
+# Accessing the CR API using Python 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Xiang511/CR-API?display_timestamp=author&style=for-the-badge&color=blue)
 ![Github Created At](https://img.shields.io/github/created-at/Xiang511/CR-API?style=for-the-badge&color=blue)
 ![GitHub Release](https://img.shields.io/github/v/release/Xiang511/CR-API?style=for-the-badge)
 ![GitHub License](https://img.shields.io/github/license/Xiang511/CR-API?style=for-the-badge&color=blue)
-# Accessing the CR API using Python 
 
 Users must obtain the corresponding API key to use. Please go to [Official Document](https://developer.clashroyale.com/#/)  
 If you like my project, please consider giving it a star. [GitHub](https://github.com/Xiang511/CR-API) 
