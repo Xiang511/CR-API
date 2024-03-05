@@ -8,13 +8,13 @@ Accessing the CR-API using Python
 
 Users must obtain the corresponding API key to use. Please go to [Official Document](https://developer.clashroyale.com/#/)  
 
-## Features 
+### Features 
 -  Search Clan information
 -  Search Player information  
 -  Search local rankings 
 -  Search player achievement records
 
-## Under development
+### Under development
 - Implement a GUI
 
 ## Example Usage
