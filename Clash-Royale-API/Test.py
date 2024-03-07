@@ -4,6 +4,10 @@ import json
 import time
 from tqdm import tqdm
 
+
+# 	2024/3/8 combine Player.py with PlayerProfile.py
+
+
 def combine_player_data(player_tag, api_key):
     headers = {
         "Authorization": f"Bearer {api_key}"
